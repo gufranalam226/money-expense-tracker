@@ -1,0 +1,19 @@
+{
+  "name": "money-expense-tracker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3",
+    "mongoose": "^8.2.1",
+    "node": "^21.6.2",
+    "path": "^0.12.7"
+  },
+  "description": ""
+}

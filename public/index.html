@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Expense Tracker</title>
+    
+    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/?size=80&id=dxoYK8bxqiJr&format=png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="headbox">
+            <div class="title">Money Expenses</div>
+            <div class="addexp" onclick="addExpense()">Add expense</div>
+        </header>
+        <main class="bodybox">
+            <div class="explisthead">
+                <div>Expense Title</div>
+                <div>Date</div>
+                <div>Amount</div>
+            </div>
+            <div class="explist">
+                
+            </div>
+        </main>
+        <div>
+            <div>total Amount</div>
+            <div class="totalamount"></div>
+        </div>
+        <footer class="footerbox">
+            <div class="footer">Created by Gufran Alam</div>
+        </footer>
+    </div>
+
+    
+    <div class="addmore">
+        
+            <input type="text" name="expTitle" id="expTitle" placeholder="Enter the expense title" required>
+            <input type="date" name="date" id="date" required>
+            <input type="number" name="amount" id="amount" placeholder="Enter amount" required="required">
+            <button type="submit" onclick="addMore()">Add</button>
+        
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
+
